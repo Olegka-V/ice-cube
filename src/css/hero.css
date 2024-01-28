@@ -1,0 +1,54 @@
+.hero{
+    
+    background-color: #F9FFFF;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    padding: 28px 0;
+    gap: 15px;
+}
+
+.img-hero{
+    width: 50px;
+    height: 50px;
+}
+
+.hero-text{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    color: #518CDD;
+     
+}
+
+.container-slogan{
+    padding: 135px 0;
+    background-color:#F9FFFF ;
+    background-repeat: no-repeat;
+    background-position: 92% ;
+    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.3), rgba(46, 47, 66, 0.3)), url(https://i.pinimg.com/originals/67/86/d1/6786d1d66cb81d288dc9d6a53bc7cd01.jpg);
+}
+
+.slogan-position{
+    width: 90%;
+    margin: auto;
+}
+
+.name-slogan{
+color: #fff;
+position: relative;
+top: 70px;
+font-weight: 500;
+}
+
+.slogan{
+color: #fff;
+position: relative;
+top: 70px;
+font-weight: 300;
+}
+
