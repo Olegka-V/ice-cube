@@ -9,6 +9,12 @@ body{
   background-color: #fff;
 }
 
+.header{
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #fff;
+}
 
 .contacts{
 width: 100%;
