@@ -1,4 +1,7 @@
 
+.order-sec{
+    padding: 0 0 80px 0;
+}
 .container-grid{
     margin: 0 auto;
     width: 90%;
@@ -38,4 +41,26 @@
         font-size: 20px;
         padding: 20px 10px ;
     }
+}
+
+@media screen and (min-width:1024px) {
+
+.item-order-grid{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.item-order-grid:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.img-grid{
+    width: 60%;
+}
+
+.link-grid{
+    font-size: 14px;
+}
+
 }

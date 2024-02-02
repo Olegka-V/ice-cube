@@ -84,3 +84,15 @@ text-align: center;
     }
 
 }
+
+@media screen and (min-width:768px) {
+    .slogan-position{
+        padding-top: 25%;
+    }
+    .name-slogan{
+        font-size: 32px;
+    }
+    .slogan{
+        font-size: 24px;
+    }
+}

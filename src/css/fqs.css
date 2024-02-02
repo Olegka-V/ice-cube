@@ -51,7 +51,7 @@
     display: block;
     text-align: center;
     max-width: 100px;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 3px;
     padding: 13px 0;
     font-weight: bold;
@@ -80,10 +80,41 @@
    }
 
    .button-order-shop{
-    font-size: 20px;
     max-width: 130px;
     padding: 20px 4px;
     border-radius: 7%;
     
    }
+}
+
+@media screen and (min-width:1024px){
+    .orders-list{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .order-item{
+        flex-basis: calc((100% - 25%) / 2);
+    }
+    .fqs-content{
+       width: 60%;
+       margin: auto; 
+       font-size: 22px;
+    }
+    .order-item:nth-child(2){
+        margin: 0;
+    }
+
+    .subtitle{
+        font-size: 22px;
+    }
+    .order-text{
+        font-size: 18px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    
 }

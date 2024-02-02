@@ -17,15 +17,23 @@ body{
 }
 
 .contacts{
-width: 100%;
 padding: 10px 0;
 background-color: #333149;
 color: #fff;
 text-align: center;
 }
 
+.contacts-link {
+  font-size: 14px;
+}
+
 .nav-container{
   padding: 22px 15px;
+}
+
+.icon-nav{
+ width: 30px;
+ height: 30px;
 }
 
 .navigation{
@@ -56,8 +64,57 @@ vertical-align: middle;
   gap: 30px;
 }
 
+.leptop{
+  display: none;
+}
+
+.nav-list-leptop{
+  display: none;
+}
+
 @media screen and (min-width:768px) {
   .logo{
     font-size: 40px;
+  }
+
+    
+}
+
+@media screen and (min-width:1024px){
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+  }
+
+
+  .leptop {
+    display: block;
+    fill: #fff;
+  }
+  .nav-list{
+    display: none;
+  }
+
+  .navigation{
+    justify-content: flex-start;
+    gap: 60px;
+  }
+
+  .nav-list-leptop {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .nav-link{
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .icon-nav{
+    width: 25px;
+    height: 25px;
   }
 }

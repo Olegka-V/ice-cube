@@ -19,6 +19,11 @@
     justify-content: center;
 }
 
+.icon-media{
+    width: 30px;
+    height: 30px;
+}
+
 .media-text{
     color: #fff;
     text-align: center;
@@ -53,5 +58,20 @@
     }
     .rule{
         font-size: 15px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .media-text{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .link-media{
+        width: 27px ;
+        height: 27px;
+    }
+    .icon-media{
+        width: 16px;
+        height: 16px;
     }
 }
