@@ -29,6 +29,7 @@ text-align: center;
 
 .nav-container{
   padding: 22px 15px;
+  border-bottom: 1px solid rgba(51, 49, 73, 0.2);
 }
 
 .icon-nav{
